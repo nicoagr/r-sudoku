@@ -4,6 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>r_sudoku</RootNamespace>
+    <ApplicationIcon />
+    <StartupObject>r_sudoku.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
