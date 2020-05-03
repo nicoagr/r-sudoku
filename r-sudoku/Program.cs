@@ -1,8 +1,11 @@
-﻿using Microsoft.Win32.SafeHandles;
+﻿// -----------------------------------------------
+//               R - SUDOKU
+//
+//              Abril-Mayo 2020
+//        nico.eus ǀ github.com/nicoagr      
+// -----------------------------------------------
 using System;
 using System.Diagnostics;
-using System.IO;
-using System.Security.Principal;
 
 namespace r_sudoku
 {
@@ -29,7 +32,7 @@ namespace r_sudoku
             Console.ReadLine();
 
 
-            //Declarar variable maestra (El sudoku es de 9x9, pero pongo 10x10 porque sino sale una excepcion de fuera de rango)
+            //Declarar variable maestra (Por motivos practicos, en vez de usar el comienzo de la variable(0) empiezo por el 1)
             int[,] memoria = new int[10, 10];
 
         //Imprimir sudoku
@@ -76,7 +79,7 @@ namespace r_sudoku
             string fila = Console.ReadLine();
             //Comprobar si hay alguin comando especial
             if (fila == "ok") goto ok;
-            if (fila == "reset") goto Inicio;
+            if (fila == "reset") { Console.WriteLine("Este proceso borrará todo el sudoku. Para confirmar, escribe 'reset'"); string confreset = Console.ReadLine(); if (confreset == "reset") memoria = new int[10, 10]; goto Edicion; }
             //errores varios
             if (fila == string.Empty) { goto Edicion; }
             try
