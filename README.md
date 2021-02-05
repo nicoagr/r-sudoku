@@ -9,4 +9,4 @@ Para descargar el programa, descargarlo [aquí](https://github.com/nicoagr/r-sud
 ## Aviso
 Este programa no utiliza ningún tipo de algoritmo, simplemente trabaja con la definición de sudoku, y hace los muchos cálculos necesarios para obtener cada casilla del sudoku. No es un programa eficiente, ni lo intenta ser.
 ### Legal
-*Este proyecto NO tiene una licencia. Para obtener más información sobre licencias de código abierto, haz click [aquí](https://opensource.org/faq). Si quieres saber qué significa que este proyecto no tenga una licencia, haz click [aquí](https://choosealicense.com/no-permission/)*
+*Este proyecto NO tiene una licencia "de código abierto". Para obtener más información sobre licencias de código abierto, haz click [aquí](https://opensource.org/faq). Si quieres saber qué significa que este proyecto no tenga una licencia "de código abierto", haz click [aquí](https://choosealicense.com/no-permission/)*
